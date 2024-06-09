@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Lexend Deca", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-component {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 920px;
+  height: 500px;
+  margin: auto;
+  margin-top: 15vh;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.sedans {
+  background-color: #E28625;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sedans button {
+  color: #E28625;
 }
+
+.sedans button:hover {
+  background-color: #E28625;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+}
+
+.suvs {
+  background-color: #006971;
+}
+
+.suvs button {
+  color: #006971;
+}
+
+.suvs button:hover {
+  background-color: #006971;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+}
+
+.luxury {
+  background-color: #004140;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.luxury button:hover {
+  background-color: #004140;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+}
+
+.luxury button {
+  color: #004140;
+}
+
+.card-component img {
+  width: 64px;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.card-component h1 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #F2F2F2;
+  margin-left: 40px;
+}
+
+.card-component p {
+  font-size: 15px;
+  font-weight: 300;
+  color: #FFFFFF;
+  margin-left: 40px;
+  margin-right: 50px;
+  line-height: 25px;
+}
+
+.card-component button {
+  border: none;
+  border-radius: 40px;
+  width: 146px;
+  height: 48px;
+  background-color: #F2F2F2;
+  font-size: 15px;
+  margin-left: 40px;
+  margin-top: 70px;
+}
+
+
+
+
+
+
+
